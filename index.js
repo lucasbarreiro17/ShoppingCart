@@ -32,7 +32,7 @@ function showCart(id,stock){
     let producto=arrayProducts[id-1];
     contenedorCarrito.innerHTML += `
             
-            <li class="list-group-item d-flex bg-dark text-white " onclick="showCart(${producto.id})" >
+            <li class="list-group-item d-flex bg-dark text-white " >
                 <div class="row">
             
                 <img class="col-2" src="${producto.image}">
